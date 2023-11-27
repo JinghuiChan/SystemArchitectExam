@@ -1,0 +1,45 @@
+site_name: 计算机技术与软件专业技术资格（水平）考试
+site_url: https://systemarchitectexam.readthedocs.io/zh-cn/latest/
+repo_url: https://github.com/JinghuiChan/SystemArchitectExam
+
+theme:
+  name: material
+  language: zh
+
+  palette:
+    # Palette toggle for light mode
+    - scheme: default
+      primary: deep orange
+      accent: pink
+      toggle:
+        icon: material/lightbulb
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - scheme: slate
+      primary: black
+      accent: indigo
+      toggle:
+        icon: material/lightbulb-outline
+        name: Switch to light mode
+
+  features:
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.expand
+    - navigation.path
+    - navigation.prune
+    - navigation.indexes
+    - toc.integrate
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - search.share
+
+plugins:
+  - search
+
